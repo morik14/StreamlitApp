@@ -1,7 +1,7 @@
 import streamlit as st
-from presentation import show_home, show_sub
+from app.views import show_home_page, show_sub_page
 
-PAGES = {"モデル作成": show_home, "モデル一覧": show_sub}
+PAGES = {"モデル作成": show_home_page, "モデル一覧": show_sub_page}
 
 
 def main():
